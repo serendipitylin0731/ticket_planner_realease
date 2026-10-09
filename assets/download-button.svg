@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="58" viewBox="0 0 320 58" role="img" aria-labelledby="title">
+  <title id="title">下载当前版本 v0.12.1</title>
+  <defs>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16a6bd"/>
+      <stop offset="1" stop-color="#177a9e"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="318" height="56" rx="14" fill="url(#button)" stroke="#76dbe7" stroke-opacity=".58" stroke-width="2"/>
+  <path d="M38 15v20m-8-8 8 8 8-8M28 43h20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="37" fill="#ffffff" font-size="20" font-weight="700" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">下载当前版本 v0.12.1</text>
+</svg>

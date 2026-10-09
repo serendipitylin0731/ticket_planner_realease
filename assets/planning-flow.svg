@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="592" viewBox="0 0 700 592" role="img" aria-labelledby="title desc">
+  <title id="title">轨迹主要功能图解</title>
+  <desc id="desc">四张卡片展示灵活选站、双数据源、个性筛选、时间线结果。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101d38"/>
+      <stop offset="1" stop-color="#102b48"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b3555"/>
+      <stop offset="1" stop-color="#172b48"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="592" rx="24" fill="url(#bg)"/>
+  <path d="M38 94H662" stroke="#ffffff" stroke-opacity=".12"/>
+  <text x="38" y="55" fill="#ffffff" font-size="32" font-weight="800" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">从选站到成行</text>
+  <text x="39" y="80" fill="#8dcbd7" font-size="15" font-weight="600" letter-spacing="2" font-family="Arial, sans-serif">PLAN THE ROUTE · FOLLOW THE JOURNEY</text>
+
+  <g fill="url(#card)" stroke="#45607c" stroke-opacity=".65">
+    <rect x="38" y="120" width="302" height="200" rx="18"/>
+    <rect x="360" y="120" width="302" height="200" rx="18"/>
+    <rect x="38" y="340" width="302" height="200" rx="18"/>
+    <rect x="360" y="340" width="302" height="200" rx="18"/>
+  </g>
+
+  <g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="60" y="162" fill="#72d8e8" font-size="15" font-weight="700" letter-spacing="2">01 / STATIONS</text>
+    <text x="60" y="204" fill="#ffffff" font-size="30" font-weight="700">灵活选站</text>
+    <text x="60" y="246" fill="#c4d8e9" font-size="19">多起终点 · 有序途径</text>
+    <path d="M66 281H255" stroke="#4b7991" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="70" cy="281" r="9" fill="#59d4e7"/>
+    <circle cx="161" cy="281" r="9" fill="#f2bc65"/>
+    <circle cx="251" cy="281" r="9" fill="#f28c92"/>
+
+    <text x="382" y="162" fill="#f2c779" font-size="15" font-weight="700" letter-spacing="2">02 / DATA</text>
+    <text x="382" y="204" fill="#ffffff" font-size="30" font-weight="700">双数据源</text>
+    <text x="382" y="246" fill="#c4d8e9" font-size="19">12306 查询 / 静态离线</text>
+    <rect x="384" y="268" width="90" height="27" rx="13" fill="#284260" stroke="#f2bc65"/>
+    <text x="402" y="287" fill="#f7dbad" font-size="15">实时</text>
+    <rect x="485" y="268" width="90" height="27" rx="13" fill="#284260" stroke="#f2bc65"/>
+    <text x="503" y="287" fill="#f7dbad" font-size="15">静态</text>
+
+    <text x="60" y="382" fill="#8dd9b7" font-size="15" font-weight="700" letter-spacing="2">03 / FILTER</text>
+    <text x="60" y="424" fill="#ffffff" font-size="30" font-weight="700">个性筛选</text>
+    <text x="60" y="466" fill="#c4d8e9" font-size="19">车次 · 时间 · 换乘</text>
+    <path d="M66 501H256" stroke="#6e9b94" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="120" cy="501" r="10" fill="#79d1aa"/>
+    <circle cx="211" cy="501" r="10" fill="#79d1aa"/>
+
+    <text x="382" y="382" fill="#efa9ad" font-size="15" font-weight="700" letter-spacing="2">04 / RESULTS</text>
+    <text x="382" y="424" fill="#ffffff" font-size="30" font-weight="700">时间线结果</text>
+    <text x="382" y="466" fill="#c4d8e9" font-size="19">至多 50 条 · 自由排序</text>
+    <path d="M389 491H575M389 507H540" stroke="#849bb3" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="390" cy="491" r="7" fill="#f28c92"/>
+    <circle cx="390" cy="507" r="7" fill="#f28c92"/>
+  </g>
+</svg>
